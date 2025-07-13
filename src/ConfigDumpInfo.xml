@@ -3,8 +3,8 @@
 	<ConfigVersions>
 		<Metadata name="Configuration.Конфигурация" id="12d0d183-264e-46f1-819b-515ff6adb3e3" configVersion="dc79f1ce5bfb7540bf05a2c86d786ce500000000"/>
 		<Metadata name="DataProcessor.Обработка1" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc" configVersion="62c7992b43b3b646939fc1a735f2053500000000"/>
-		<Metadata name="DataProcessor.Обработка1.Form.Форма" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d" configVersion="86981ae22157784d9b5307580b2d404a00000000"/>
-		<Metadata name="DataProcessor.Обработка1.Form.Форма.Form" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d.0" configVersion="87d9a9d124771b4cbd8a8ef999a6a41800000000"/>
+		<Metadata name="DataProcessor.Обработка1.Form.Форма" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d" configVersion="4eab78da0d0d1b478ef87ca4fa7ebe7700000000"/>
+		<Metadata name="DataProcessor.Обработка1.Form.Форма.Form" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d.0" configVersion="68ad22283a1dca4497d91f5f72804d6600000000"/>
 		<Metadata name="DataProcessor.Обработка1.Form.Форма.Help" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d.1" configVersion="a861b56489e55244b8521292fdcd6b7e00000000"/>
 		<Metadata name="DataProcessor.Обработка1.Help" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc.1" configVersion="4b2775d82fddc94dae1f3796d1f82d3a00000000"/>
 		<Metadata name="DataProcessor.Обработка1.ManagerModule" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc.2" configVersion="92497fc44689e849a7661d08a0b9134900000000"/>

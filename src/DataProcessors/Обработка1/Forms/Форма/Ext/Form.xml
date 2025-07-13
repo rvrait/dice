@@ -47,11 +47,6 @@
 						<CommandName>Form.Command.Грань6</CommandName>
 						<ExtendedTooltip name="ФормаГрань6РасширеннаяПодсказка" id="74"/>
 					</Button>
-					<Button name="ФормаГрань7" id="75">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.Грань7</CommandName>
-						<ExtendedTooltip name="ФормаГрань7РасширеннаяПодсказка" id="76"/>
-					</Button>
 				</ChildItems>
 			</Popup>
 		</ChildItems>
@@ -314,6 +309,7 @@
 					<v8:content>Грань1</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань1</Action>
 		</Command>
 		<Command name="Грань2" id="2">
 			<Title>
@@ -382,48 +378,6 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Грань6</v8:content>
-				</v8:item>
-			</ToolTip>
-		</Command>
-		<Command name="Грань7" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Грань7</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Грань7</v8:content>
-				</v8:item>
-			</ToolTip>
-		</Command>
-		<Command name="Грань8" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Грань8</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Грань8</v8:content>
-				</v8:item>
-			</ToolTip>
-		</Command>
-		<Command name="Грань9" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Грань9</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Грань9</v8:content>
 				</v8:item>
 			</ToolTip>
 		</Command>
