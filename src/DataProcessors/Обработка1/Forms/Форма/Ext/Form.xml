@@ -47,11 +47,6 @@
 						<CommandName>Form.Command.Грань6</CommandName>
 						<ExtendedTooltip name="ФормаГрань6РасширеннаяПодсказка" id="74"/>
 					</Button>
-					<Button name="ФормаГрань7" id="75">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.Грань7</CommandName>
-						<ExtendedTooltip name="ФормаГрань7РасширеннаяПодсказка" id="76"/>
-					</Button>
 				</ChildItems>
 			</Popup>
 		</ChildItems>
@@ -356,6 +351,7 @@
 					<v8:content>Грань4</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань4</Action>
 		</Command>
 		<Command name="Грань5" id="5">
 			<Title>
@@ -370,6 +366,7 @@
 					<v8:content>Грань5</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань5</Action>
 		</Command>
 		<Command name="Грань6" id="6">
 			<Title>
@@ -384,6 +381,7 @@
 					<v8:content>Грань6</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань6</Action>
 		</Command>
 		<Command name="Грань7" id="7">
 			<Title>
@@ -426,6 +424,7 @@
 					<v8:content>Грань9</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань9</Action>
 		</Command>
 	</Commands>
 </Form>
