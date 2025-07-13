@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="Грани" id="61">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Грани</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Грани</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ГраниРасширеннаяПодсказка" id="62"/>
+				<ChildItems>
+					<Button name="ФормаГрань1" id="63">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Грань1</CommandName>
+						<ExtendedTooltip name="ФормаГрань1РасширеннаяПодсказка" id="64"/>
+					</Button>
+					<Button name="ФормаГрань2" id="65">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Грань2</CommandName>
+						<ExtendedTooltip name="ФормаГрань2РасширеннаяПодсказка" id="66"/>
+					</Button>
+					<Button name="ФормаГрань3" id="67">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Грань3</CommandName>
+						<ExtendedTooltip name="ФормаГрань3РасширеннаяПодсказка" id="68"/>
+					</Button>
+					<Button name="ФормаГрань4" id="69">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Грань4</CommandName>
+						<ExtendedTooltip name="ФормаГрань4РасширеннаяПодсказка" id="70"/>
+					</Button>
+					<Button name="ФормаГрань5" id="71">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Грань5</CommandName>
+						<ExtendedTooltip name="ФормаГрань5РасширеннаяПодсказка" id="72"/>
+					</Button>
+					<Button name="ФормаГрань6" id="73">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Грань6</CommandName>
+						<ExtendedTooltip name="ФормаГрань6РасширеннаяПодсказка" id="74"/>
+					</Button>
+					<Button name="ФормаГрань7" id="75">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Грань7</CommandName>
+						<ExtendedTooltip name="ФормаГрань7РасширеннаяПодсказка" id="76"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="1">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="3">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<CheckBoxField name="точка1" id="20">
+							<DataPath>точка1</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка1КонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="точка1РасширеннаяПодсказка" id="22"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="5">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<CheckBoxField name="точка2" id="23">
+							<DataPath>точка2</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>CheckBox</CheckBoxType>
+							<ContextMenu name="точка2КонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="точка2РасширеннаяПодсказка" id="25"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа4" id="7">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<CheckBoxField name="точка3" id="26">
+							<DataPath>точка3</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка3КонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="точка3РасширеннаяПодсказка" id="28"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа5" id="18">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="19"/>
+			<ChildItems>
+				<UsualGroup name="Группа6" id="29">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="30"/>
+					<ChildItems>
+						<CheckBoxField name="точка4" id="35">
+							<DataPath>точка4</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка4КонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="точка4РасширеннаяПодсказка" id="37"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа7" id="31">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="32"/>
+					<ChildItems>
+						<CheckBoxField name="точка5" id="38">
+							<DataPath>точка5</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка5КонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="точка5РасширеннаяПодсказка" id="40"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа8" id="33">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<CheckBoxField name="точка6" id="41">
+							<DataPath>точка6</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка6КонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="точка6РасширеннаяПодсказка" id="43"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа9" id="44">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<UsualGroup name="Группа10" id="46">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<CheckBoxField name="точка7" id="52">
+							<DataPath>точка7</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка7КонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="точка7РасширеннаяПодсказка" id="54"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа11" id="48">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<CheckBoxField name="точка8" id="55">
+							<DataPath>точка8</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка8КонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="точка8РасширеннаяПодсказка" id="57"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа12" id="50">
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<CheckBoxField name="точка9" id="58">
+							<DataPath>точка9</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="точка9КонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="точка9РасширеннаяПодсказка" id="60"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Обработка1</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="точка1" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка2" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка3" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка4" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка4</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка5" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка5</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка9" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка9</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка6" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка6</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка7" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка7</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="точка8" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Точка8</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Грань1" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань1</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань1</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань2</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань2</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань3" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань3</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань3</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань4" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань4</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань4</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань5" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань5</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань5</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань6" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань6</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань6</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань7" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань7</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань7</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань8" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань8</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань8</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="Грань9" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань9</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грань9</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+	</Commands>
+</Form>
