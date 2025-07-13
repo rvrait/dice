@@ -314,6 +314,7 @@
 					<v8:content>Грань1</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань1</Action>
 		</Command>
 		<Command name="Грань2" id="2">
 			<Title>
@@ -328,6 +329,7 @@
 					<v8:content>Грань2</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань2</Action>
 		</Command>
 		<Command name="Грань3" id="3">
 			<Title>
@@ -342,6 +344,7 @@
 					<v8:content>Грань3</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Грань3</Action>
 		</Command>
 		<Command name="Грань4" id="4">
 			<Title>
