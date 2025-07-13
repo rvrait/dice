@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
 	<ConfigVersions>
-		<Metadata name="Configuration.Конфигурация" id="12d0d183-264e-46f1-819b-515ff6adb3e3" configVersion="dc79f1ce5bfb7540bf05a2c86d786ce500000000"/>
-		<Metadata name="DataProcessor.Обработка1" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc" configVersion="62c7992b43b3b646939fc1a735f2053500000000"/>
-		<Metadata name="DataProcessor.Обработка1.Form.Форма" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d" configVersion="62e87565c8869b4cac8aeac57ea86b1700000000"/>
-		<Metadata name="DataProcessor.Обработка1.Form.Форма.Form" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d.0" configVersion="f8706181f2526e49b227aa79ee7c391300000000"/>
-		<Metadata name="DataProcessor.Обработка1.Form.Форма.Help" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d.1" configVersion="a861b56489e55244b8521292fdcd6b7e00000000"/>
-		<Metadata name="DataProcessor.Обработка1.Help" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc.1" configVersion="4b2775d82fddc94dae1f3796d1f82d3a00000000"/>
-		<Metadata name="DataProcessor.Обработка1.ManagerModule" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc.2" configVersion="92497fc44689e849a7661d08a0b9134900000000"/>
-		<Metadata name="DataProcessor.Обработка1.ObjectModule" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc.0" configVersion="8ed04db94f45d6489dba94f20349313a00000000"/>
-		<Metadata name="Language.Русский" id="fa2e3fca-fc74-45eb-a90e-46e036c7cffb" configVersion="b593c4069fbc944bab72178769945f6b00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="12d0d183-264e-46f1-819b-515ff6adb3e3" configVersion="25ebb8bc2e3758459ddef3f79306ac2c00000000"/>
+		<Metadata name="DataProcessor.Обработка1" id="4d6b3105-9b36-4492-850a-5c47b8a0e4dc" configVersion="8d67460ee3e14448a8d4703fcc2e677300000000"/>
+		<Metadata name="DataProcessor.Обработка1.Form.Форма" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d" configVersion="c97e61ca2803a448ad6beced33a3d5d100000000"/>
+		<Metadata name="DataProcessor.Обработка1.Form.Форма.Form" id="fa3428fe-88f4-4166-bb11-2dc8a921f33d.0" configVersion="49d5c030b3ec514dbb9a72798deb111400000000"/>
+		<Metadata name="Language.Русский" id="fa2e3fca-fc74-45eb-a90e-46e036c7cffb" configVersion="470a9d9fa5f7b6478a2d8ddcd333f57000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
